@@ -1,0 +1,35 @@
+/* Inside your CSS file or a <style> tag within the component */
+body, html { 
+  height: 100vh;
+  margin: 0;
+  font-family: 'Prompt', sans-serif; /* Applies Prompt as the primary font */
+}
+
+div { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center; 
+}
+
+p { 
+  margin-bottom: 10px; 
+} 
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700; /* Using the bold weight (700) of Prompt */
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none; /* Removes default bullet points */
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+  font-weight: 300;  /* Using the lighter weight (300) for request entries */
+}

@@ -1,0 +1,75 @@
+.App {
+  
+  text-align: center;
+}
+
+.meme-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 500px;
+  transform: translate(50%);
+
+ 
+}
+
+.meme-text {
+  /* ปรับตำแหน่ง */
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(-80%);
+
+  /* ปรับขนาดตัวอักษร */
+  font-size: 36px;
+
+  /* ปรับความหนาของตัวอักษร */
+  font-weight: bold;
+
+  /* ปรับสีตัวอักษร */
+  color: #ffc000;
+
+  /* ปรับรูปแบบตัวอักษร */
+  font-family: 'Arial', sans-serif;
+
+  /* เพิ่มเงา */
+  text-shadow: 2px 2px 4px #000000;
+
+  
+
+  /* ปรับระยะห่างระหว่างตัวอักษร */
+  letter-spacing: 1px;
+}
+
+.meme-input {
+  /* ปรับขนาด */
+  width: 400px;
+  height: 50px;
+
+  /* ปรับขอบ */
+  /* border: 2px solid #ffc000; */
+  border-radius: 10px;
+
+  /* ปรับพื้นหลัง */
+  background-color: #ffffff;
+
+  /* ปรับ padding */
+  padding: 15px;
+  margin-top: 40px;
+
+  /* ปรับรูปแบบตัวอักษร */
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  color: #000000;
+
+  /* เพิ่มเงา */
+  box-shadow: 0px 0px 5px #000000;
+
+  /* เพิ่ม focus style */
+  &:focus {
+    outline: none;
+    border-color: #000000;
+  }
+}
+ 
